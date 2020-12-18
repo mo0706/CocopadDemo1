@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/mo0706/CocopadDemo1.git", :tag => "#{s.version}" }
   s.source_files  = "DemoFramwork1.framework/DemoFramwork", "DemoFramwork1.framework/Headers/*.{h}","DemoFramwork1.framework/Modules/**"
 
-#  s.vendored_frameworks = 'DemoFramwork1.framework'
+ # s.vendored_frameworks = 'DemoFramwork1.framework'
 
 end
